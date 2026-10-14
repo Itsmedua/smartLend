@@ -1,11 +1,11 @@
-# SmartLend (starter)
+# SmartLend: Explainable Credit Risk Platform
 
-A loan officer logs in, enters an applicant's details, and gets a risk score with a
-plain-language "why this score" explanation. The officer then approves, refers, or
-rejects, and the decision is saved.
+A web app for bank loan officers. The officer enters an applicant's details
+and gets a default-risk score with a plain-language explanation of why.
+The officer then approves, refers, or rejects, and each decision is saved.
 
-This is the starter version (steps 1 to 6 of the build order). Later you will add
-better models, SHAP, charts, the fraud module, roles, and deployment.
+Built with Python, Django, scikit-learn, and Bootstrap.
+Final Year Project, BSCS.
 
 ## Run it on your computer (Windows)
 
