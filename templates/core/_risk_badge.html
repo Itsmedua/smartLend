@@ -1,0 +1,3 @@
+{% if a.risk_label == "High risk" %}<span class="badge text-bg-danger">{{ a.risk_label }} · {{ a.risk_percent }}%</span>
+{% elif a.risk_label == "Medium risk" %}<span class="badge text-bg-warning">{{ a.risk_label }} · {{ a.risk_percent }}%</span>
+{% else %}<span class="badge text-bg-success">{{ a.risk_label }} · {{ a.risk_percent }}%</span>{% endif %}

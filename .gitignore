@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+core/ml_model/model.joblib
+.env
